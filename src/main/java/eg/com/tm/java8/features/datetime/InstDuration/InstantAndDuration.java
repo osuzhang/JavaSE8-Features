@@ -31,7 +31,11 @@ public class InstantAndDuration {
         Instant start = now();
         System.out.println(start);
         
-        Thread.sleep(1000);
+//        Thread.sleep(3000);
+        for (int i= 0; i< 200 ; i++ ){
+            System.out.println("chen mengyi ");
+            Thread.sleep(30);
+        }
         
         Instant end = now();
         System.out.println(end);

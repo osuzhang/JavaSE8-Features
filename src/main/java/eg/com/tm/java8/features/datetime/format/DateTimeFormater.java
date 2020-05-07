@@ -34,6 +34,7 @@ public class DateTimeFormater {
     public static void main(String[] args) {
 
         LocalDate currentDate = LocalDate.now();
+        System.out.println(currentDate);
         DateTimeFormatter df = DateTimeFormatter.ISO_DATE;
         System.out.println(df.format(currentDate));
 
